@@ -1,0 +1,16 @@
+
+# HTID:7692795: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:7692795:
+<Files Constants.php>
+order allow,deny
+Deny from all
+</Files>
+<Files DbConnect.php>
+order allow,deny
+Deny from all
+</Files>
+<Files DbOperation.php>
+order allow,deny
+Deny from all
+</Files>
